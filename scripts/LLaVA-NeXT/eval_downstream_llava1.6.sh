@@ -1,0 +1,14 @@
+python eval_downstream.py --model_path ./checkpoints/llava-v1.6-mistral-7b \
+    --eval_file_path_scienceqa /path/to/scienceqa/test.json \
+    --image_path_scienceqa /path/to/scienceqa/images \
+    --answers_file_scienceqa ./results_downstream/scienceqa_answers.json \
+    --answers_file_scienceqa_balanced ./results_downstream/scienceqa_answers_balanced.json \
+    --eval_file_path_hallusionbench /path/to/hallusionbench/test.json \
+    --image_path_hallusionbench /path/to/hallusionbench/images \
+    --answers_file_hallusionbench ./results_downstream/hallusionbench_answers.json \
+    --answers_file_hallusionbench_balanced ./results_downstream/hallusionbench_answers_balanced.json \
+    --eval_file_path_crpe /path/to/crpe/test.jsonl \
+    --image_path_crpe /path/to/crpe/images \
+    --answers_file_crpe ./results_downstream/crpe_answers.json \
+    --answers_file_crpe_balanced ./results_downstream/crpe_answers_balanced.json \
+    --position_balance
