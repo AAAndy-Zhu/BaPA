@@ -24,11 +24,9 @@ def main(args):
     answers_file = args.answers_file
 
     test_data = [json.loads(line) for line in open(eval_file_path)]
-    test_data = test_data[:18000]
+    test_data = test_data[:9000]
     ans_file = open(answers_file, "w")
     for data in tqdm(test_data):
-        if data['answer'] == 'No':
-            continue
         caption = data['caption']
         image_file = os.path.join(img_path, data['image'])
         image = Image.open(image_file)
