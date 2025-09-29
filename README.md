@@ -57,7 +57,7 @@ You can download the following LVLMs directly from 🤗Hugging Face:
 conda create -n bapa python=3.10 -y
 conda activate bapa
 pip install -r requirements.txt
-cd ../scripts/LLaVA-NeXT
+cd scripts/LLaVA-NeXT
 pip install -e ".[train]"
 cd ../../transformers-4.51.3
 pip install -e .
@@ -65,7 +65,7 @@ pip install -e .
 # For LLaVA-v1.5
 conda create -n llava-bapa python=3.10 -y
 conda activate llava-bapa
-cd ./scripts/LLaVA
+cd scripts/LLaVA
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 cd ../../transformers-4.37.2
