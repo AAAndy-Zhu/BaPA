@@ -2,6 +2,7 @@
 
 This repository contains the implementation of [*From Bias to Balance: Exploring and Mitigating Spatial Bias in LVLMs*](https://arxiv.org/abs/2509.21984). In this paper, we systematically investigates spatial robustness in Large Vision-Language Models (LVLMs) and propose **Balanced Position Assignment (BaPA)**, a simple yet effective method to mitigate spatial bias in LVLMs to improve cross-modal reasoning.
 
+![BaPA](https://github.com/AAAndy-Zhu/BaPA/blob/main/image.png)
 
 ## 📊 Data
 ### Probe Dataset
