@@ -128,7 +128,7 @@ After downloading all of them, organize the data as follows in `scripts/LLaVA/pl
         ```
 
 ### Training LLaVA-v1.5-7B with BaPA from Scratch
-If you want to train **LLaVA-v1.5** from scratch, please follow the official [LLaVA-v1.5 repository](https://github.com/haotian-liu/LLaVA) tutorial.  
+If you want to train **LLaVA-v1.5** from scratch, please follow the official [tutorial](https://github.com/haotian-liu/LLaVA).  
 
 1. Download the corresponding datasets into: `scripts/LLaVA/playground/data/`
 2. Download [Vicuna-7B-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5) into `scripts/LLaVA/checkpoints/vicuna-7b-v1.5`
