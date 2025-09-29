@@ -8,13 +8,13 @@ This repository contains the implementation of [*From Bias to Balance: Exploring
 ### Probe Dataset
 We design a probe dataset by randomly sampling 10,000 image-caption pairs from LAION. Each image is placed in different spatial positions in a 3×3 grid combined with distractor images, enabling us to evaluate the robustness of LVLMs to spatial variations.
 
-- **The dataset will be made publicly available upon paper acceptance on 🤗Hugging Face.**
+- **The dataset is publicly available on [🤗Hugging Face](https://huggingface.co/datasets/AAAndyZ/BaPA_Probe_Dataset).**
 - **A subset of the data is already included in `probe_datasets` for reference.**
 
 ### Similarity Dataset
 We also construct an auxiliary dataset to measure the cosine similarity between image features and their corresponding caption embeddings across different spatial positions. We randomly select 10,000 image-caption pairs from LAION and constructed 90,000 samples in total as well.
 
-- **The dataset will be made publicly available upon paper acceptance on 🤗Hugging Face.**
+- **The dataset is publicly available on [🤗Hugging Face](https://huggingface.co/datasets/AAAndyZ/BaPA_Similarity_Dataset).**
 - **A subset of the data is already included in `similarity_datasets` for reference.**
 
 ### Fine-tuning Dataset
