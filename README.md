@@ -15,7 +15,7 @@ We design a probe dataset by randomly sampling 10,000 image-caption pairs from L
 We also construct an auxiliary dataset to measure the cosine similarity between image features and their corresponding caption embeddings across different spatial positions. We randomly select 10,000 image-caption pairs from LAION and constructed 90,000 samples in total as well.
 
 - **The dataset is publicly available on [🤗Hugging Face](https://huggingface.co/datasets/AAAndyZ/BaPA_Similarity_Dataset).**
-- **A subset of the data is already included in `similarity_datasets` for reference.**
+- **A subset of the data is already included in `similarity_data` for reference.**
 
 ### Fine-tuning Dataset
 We randomly sample 10,000 instruction-tuning examples from the LLaVA-v1.5 dataset to fine-tune LVLMs for adapting BaPA to general multi-modal downstream tasks.
